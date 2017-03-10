@@ -70,8 +70,8 @@ rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
-  enable: false             ## display image logo true/false.
-  #src: img/author.jpg      ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
+  enable: true             ## display image logo true/false.
+  src: img/logo.png      ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
   #logo.png        
 #favicon: img/author.jpg    ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
  #favicon.ico
