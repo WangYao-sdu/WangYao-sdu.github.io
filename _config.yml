@@ -1,4 +1,4 @@
-﻿#### Exclude
+#### Exclude
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 #### Code Highlighter
@@ -44,7 +44,7 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
 #### Menu
 menu:
   主页: /
-  文章: /archives
+  归档: /archives
   关于: /about
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
