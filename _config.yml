@@ -67,7 +67,7 @@ widgets:
 
 #### RSS 
 rss: /atom.xml ## RSS address.
-theme: jacman
+#theme: jacman
 #### Image
 imglogo:
   enable: false             ## display image logo true/false.
