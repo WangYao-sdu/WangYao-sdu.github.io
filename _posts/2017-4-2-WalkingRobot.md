@@ -4,5 +4,4 @@ tag: 计算机图形学
 categories: 计算机图形学 openGL
 ---
 
-实验效果视频如下：
-<embed src='http://player.youku.com/player.php/sid/XMjY4MzQ2MzAzNg==/v.swf' allowFullScreen='true' quality='high' width='480' height='400' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed>
+Idina Menze和Caleb Hyles激情对唱Let It Go：<iframe height=498 width=510 src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder=0 allowfullscreen></iframe>
