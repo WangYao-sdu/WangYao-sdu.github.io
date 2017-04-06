@@ -25,13 +25,13 @@ categories: 计算机图形学 openGL
 ## 三．具体实验过程  
 ### 1. 配置opengl库函数  
 ### 2．学习具体需要使用的相关函数：  
-	<code>glPushMatrix();  
-	glPopMatrix();  
-	glScalef(0.5, 0.5, 0.5); //缩放函数  
-	glutSolidCube(1.0); //新建立方体  
-	glColor3f(1.0, 0.6, 0.4);//着色  
-	glTranslatef(0.0, 1.25, 0.0); //平移  
-	glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转</code> 
+<code>glPushMatrix();  
+glPopMatrix();  
+glScalef(0.5, 0.5, 0.5); //缩放函数  
+glutSolidCube(1.0); //新建立方体  
+glColor3f(1.0, 0.6, 0.4);//着色  
+glTranslatef(0.0, 1.25, 0.0); //平移  
+glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转</code> 
 	
 ### 3.构思需要的变量：  
 （1）x,y,z坐标；  
@@ -44,7 +44,6 @@ categories: 计算机图形学 openGL
 
 <code> 
 //头部设计：一个立方体  
-
 void draw_head(void)  
 {  
 	glPushMatrix();  
@@ -54,6 +53,9 @@ void draw_head(void)
 	
 	glPopMatrix();  	
 }</code>  
+
+
+
 
 //身体：一个立方体  
 void draw_body(void)
