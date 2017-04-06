@@ -25,13 +25,13 @@ categories: 计算机图形学 openGL
 ## 三．具体实验过程  
 ### 1. 配置opengl库函数  
 ### 2．学习具体需要使用的相关函数：  
-	<font color=white>glPushMatrix();  
+	glPushMatrix();  
 	glPopMatrix();  
 	glScalef(0.5, 0.5, 0.5); //缩放函数  
 	glutSolidCube(1.0); //新建立方体  
 	glColor3f(1.0, 0.6, 0.4);//着色  
 	glTranslatef(0.0, 1.25, 0.0); //平移  
-	glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转</font>  
+	glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转 
 	
 ### 3.构思需要的变量：  
 （1）x,y,z坐标；  
@@ -40,7 +40,8 @@ categories: 计算机图形学 openGL
 （4）int lshoulder = 0, lelbow = 0, rshoulder = 0, relbow = 0;//设置左右手臂与肩膀处的旋转角度和下手臂与上手臂的旋转角度  
 （5）int lhips = 0, rhips = 0, lfoot = 0, rfoot = 0;//设置左右腿部与身体处的旋转角度和小腿与大腿处的旋转角度  
 ### 4.实现机器人的走动  
-（1）实现机器人外形设计  
+（1）实现机器人外形设计 
+<code> 
 //头部设计：一个立方体  
 void draw_head(void)  
 {  
@@ -49,12 +50,9 @@ void draw_head(void)
 	glTranslatef(0, 1, 0);  
 	glutSolidCube(2);
 	
-	glPopMatrix();
-	
-}
-
-//身体：一个立方体
-
+	glPopMatrix();  	
+}  
+//身体：一个立方体  
 void draw_body(void)
 
 {
@@ -116,7 +114,7 @@ void draw_leftfoot(void)
 	glutSolidCube(2);
 
 	glPopMatrix();
-}
+}</code>
 （2）通过按键，使机器人运动
 	//按“0”使机器人整体左转
 	case '0':
