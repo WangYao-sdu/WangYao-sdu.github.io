@@ -39,8 +39,8 @@ glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转</code></pre>
 （4）int lshoulder = 0, lelbow = 0, rshoulder = 0, relbow = 0;//设置左右手臂与肩膀处的旋转角度和下手臂与上手臂的旋转角度  
 （5）int lhips = 0, rhips = 0, lfoot = 0, rfoot = 0;//设置左右腿部与身体处的旋转角度和小腿与大腿处的旋转角度  
 ### 4.实现机器人的走动  
-（1）实现机器人外形设计  
-//头部设计：一个立方体  
+（1）实现机器人外形设计 
+<pre><code>//头部设计：一个立方体  
 void draw_head(void)  
 {  
 	glPushMatrix();  
@@ -78,7 +78,6 @@ void draw_leftshoulder(void)
 	glScalef(0.4, 1, 0.5);  
 	glTranslatef(0, -1.4, 0);  
 	glutSolidCube(2);  
-
 	glPopMatrix();  
 }  
 //左腿：两个立方体之间一个球体。右腿相同，不再累赘  
@@ -101,11 +100,10 @@ void draw_leftfoot(void)
 	glScalef(1, 1, 1);  
 	glTranslatef(0, -1.4, 0);  
 	glutSolidCube(2);  
-
 	glPopMatrix();  
-}  
+}</code></pre>
 （2）通过按键，使机器人运动  
-	//按“0”使机器人整体左转  
+<pre><code>//按“0”使机器人整体左转  
 	case '0':  
 		angle = (angle + 5) % 360;  
 		glutPostRedisplay();  
@@ -135,7 +133,7 @@ void draw_leftfoot(void)
 			lshoulder -= 5;   
 			if (lshoulder <= -60)flaglshoulder = 1;   
 		}  
-		glutPostRedisplay();  
+		glutPostRedisplay();</code></pre>
 （3）具体操作：先长按“1”键使机器人左转90度，再长按“2”键使机器人行走。停止按键，机器人停止运动。  
 
 ## 四． 实验结果
