@@ -41,6 +41,7 @@ categories: 计算机图形学 openGL
 （5）int lhips = 0, rhips = 0, lfoot = 0, rfoot = 0;//设置左右腿部与身体处的旋转角度和小腿与大腿处的旋转角度  
 ### 4.实现机器人的走动  
 （1）实现机器人外形设计 
+
 <code> 
 //头部设计：一个立方体  
 
@@ -53,6 +54,7 @@ void draw_head(void)
 	
 	glPopMatrix();  	
 }</code>  
+
 //身体：一个立方体  
 void draw_body(void)
 
