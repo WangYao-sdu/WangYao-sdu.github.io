@@ -43,6 +43,7 @@ categories: 计算机图形学 openGL
 （1）实现机器人外形设计 
 <code> 
 //头部设计：一个立方体  
+
 void draw_head(void)  
 {  
 	glPushMatrix();  
