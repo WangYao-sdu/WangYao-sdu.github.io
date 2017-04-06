@@ -46,8 +46,7 @@ void draw_head(void)
 	glPushMatrix();  
 	glTranslatef(0, 3.5, yy);  
 	glTranslatef(0, 1, 0);  
-	glutSolidCube(2);
-	
+	glutSolidCube(2);  
 	glPopMatrix();  	
 }  
 //身体：一个立方体  
