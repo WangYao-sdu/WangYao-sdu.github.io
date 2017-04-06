@@ -51,7 +51,7 @@ void draw_head(void)
 	glutSolidCube(2);
 	
 	glPopMatrix();  	
-}  
+}</code>  
 //身体：一个立方体  
 void draw_body(void)
 
@@ -114,7 +114,7 @@ void draw_leftfoot(void)
 	glutSolidCube(2);
 
 	glPopMatrix();
-}</code>
+}
 （2）通过按键，使机器人运动
 	//按“0”使机器人整体左转
 	case '0':
