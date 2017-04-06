@@ -24,14 +24,14 @@ categories: 计算机图形学 openGL
 往后旋转30度之后反向旋转。这符合人的运动规律，显得更加自然。  
 ## 三．具体实验过程  
 ### 1. 配置opengl库函数  
-### 2．学习具体需要使用的相关函数：  
-glPushMatrix();  
+### 2．学习具体需要使用的相关函数：
+<pre><code>glPushMatrix();  
 glPopMatrix();  
 glScalef(0.5, 0.5, 0.5); //缩放函数  
 glutSolidCube(1.0); //新建立方体  
 glColor3f(1.0, 0.6, 0.4);//着色  
 glTranslatef(0.0, 1.25, 0.0); //平移  
-glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转	
+glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转</code></pre>
 ### 3.构思需要的变量：  
 （1）x,y,z坐标；  
 （2）float yy = 0.0;//机器人在z轴方向行走的距离  
