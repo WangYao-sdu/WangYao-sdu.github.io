@@ -32,6 +32,7 @@ categories: 计算机图形学 openGL
 	glColor3f(1.0, 0.6, 0.4);//着色  
 	glTranslatef(0.0, 1.25, 0.0); //平移  
 	glRotatef((GLfloat)turn, 0.0, 1.0, 0.0);//旋转  
+	
 ### 3.构思需要的变量：  
 （1）x,y,z坐标；  
 （2）float yy = 0.0;//机器人在z轴方向行走的距离  
