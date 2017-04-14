@@ -132,5 +132,7 @@ void draw_leftfoot(void)
 		glutPostRedisplay();</code></pre>
 （3）具体操作：先长按“1”键使机器人左转90度，再长按“2”键使机器人行走。停止按键，机器人停止运动。  
 ## 四． 实验结果
-(1)机器人外形图片：[正面图片和运动截图](https://github.com/WangYao-sdu/walking-robot/commit/9a795f51dcec2852cebe62a6705172532842549e)  
+(1)机器人外形图片：  
+以下分别是机器人的正面图片和运动图片  
+![Markdown](http://i4.buimg.com/591351/e27d3745a2e14555.png)![Markdown](http://i4.buimg.com/591351/710cc4d428cce60c.png)
 (2)实验效果视频如下：[优酷视频链接](http://v.youku.com/v_show/id_XMjY4MzQ2MzAzNg==)
