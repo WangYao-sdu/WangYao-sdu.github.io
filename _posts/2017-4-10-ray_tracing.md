@@ -135,5 +135,6 @@ void draw_leftfoot(void)
 (1)机器人外形图片：  
 以下分别是机器人的正面图片和运动图片  
 ![Markdown](http://i4.buimg.com/591351/e27d3745a2e14555.png)  
+
 ![Markdown](http://i4.buimg.com/591351/710cc4d428cce60c.png)  
 (2)实验效果视频如下：[优酷视频链接](http://v.youku.com/v_show/id_XMjY4MzQ2MzAzNg==)
