@@ -5,7 +5,8 @@ categories: 计算机图形学 openGL
 ---
 
 /*
-实验代码和实验报告在github的ray-tracing项目中，欢迎下载。
+Phong模型的实验代码在github的raytracing-phong项目中，Gouraud模型的实验代码在github的raytracing-gouraud项目中，
+实验报告在github的raytracing-phong项目中，欢迎下载。
 */
 
 ## 一. 实验要求
