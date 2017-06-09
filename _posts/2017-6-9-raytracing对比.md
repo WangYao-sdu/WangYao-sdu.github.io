@@ -1,11 +1,11 @@
 ---
-title: 光线追踪与opengl自带函数对比
+title: ray tracing具体实现与opengl库函数对比
 tag: 计算机图形学
 categories: 计算机图形学 openGL
 ---
 
 /*
-raytracing的实验代码在github的raytracing-phong项目中，使用opengl自带函数的实验代码在github的opengl项目中，
+raytracing的实验代码在github的raytracing项目中，使用opengl自带函数的实验代码在github的opengl项目中，
 实验报告在github的opengl项目中，欢迎下载。
 */
 
@@ -34,7 +34,8 @@ raytracing的实验代码在github的raytracing-phong项目中，使用opengl自
 光线追踪，简单地说，就是从摄影机的位置，通过影像平面上的像素位置(比较正确的说法是取样(sampling)位置)，
 发射一束光线到场景，求光线和几何图形间最近的交点，再求该交点的著色。如果该交点的材质是反射性的，
 可以在该交点向反射方向继续追踪。光线追踪除了容易支持一些全局光照效果外，亦不局限于三角形作为几何图形的单位。
-任何几何图形，能与一束光线计算交点(intersection point)，就能支持。  
+任何几何图形，能与一束光线计算交点(intersection point)，就能支持。光线追踪示意图如下：  
+![Markdown](http://i2.muimg.com/591351/107fe2ea8fa8c907.png)  
 ### 4. 利用Phong模型处理光照场景  
 利用法向量得到球体一点的漫反射；假设人眼观察的地方在点光源的地方，由此根据观察向量和反射向量得到镜面反射；环境光是
 一个常数，根据点光源强度可以求出。然后将三者相加我们就可以得到球体在点光源下的光照情况。光照公式如下：  
